@@ -91,6 +91,6 @@ process_data <- function(i){
 library(future.apply)
 plan(multisession)
 
-for(i in 1:1000) {
+for(i in 1:length(all_art_links_vec)) {
   process_data(i)
 }
