@@ -1,0 +1,538 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="keywords" content="中华人民共和国外交部,外交部,中国外交部">
+<meta http-equiv="description" content="中华人民共和国外交部">
+<meta name="SiteName" content="中华人民共和国外交部">
+<meta name="SiteDomain" content="www.mfa.gov.cn">
+<meta name="SiteIDCode" content="bm02000004">
+<meta name="ColumnName" content="发言人表态">
+<meta name="ColumnType" content="发言人表态">
+<meta name="ColumnDescription" content="发言人表态">
+<meta name="ColumnKeywords" content="发言人表态">
+<meta name="ArticleTitle" content="2021年11月18日外交部发言人赵立坚主持例行记者会">
+<meta name="PubDate" content="2021-11-18">
+<meta name="ContentSource" content="">
+<meta name="Keywords" content="发言人;赵立坚">
+<meta name="Author" content="">
+<meta name="Description" content="2021年11月18日外交部发言人赵立坚主持例行记者会">
+<meta name="Url" content="http://www.fmprc.gov.cn/web/wjdt_674879/fyrbt_674889/202111/t20211118_10449941.shtml">
+<title>2021年11月18日外交部发言人赵立坚主持例行记者会 — 中华人民共和国外交部</title>
+<link href="../../../images/base_3.css" rel="stylesheet" type="text/css">
+<link href="../../../images/view.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../../../images/mobile.css" media="screen and (max-width:767px) and (orientation:portrait)">
+<script src="../../../images/jquery.min.js"></script><script type="text/javascript" src="../../../images/h5.js"></script><script src="../../../images/resize.js"></script><script type="text/javascript" src="../../../images/main2015.js"></script><style>
+.content{text-align:justify;text-justify:inter-ideograph;font-size:16px;color:#000;}
+.content p{padding-top:20px;}
+.content a{color:#000099;}
+.news ul li{color:#343434;}
+#News_Body_Title{width:872px;margin:32px auto 0;}
+#News_Body_Txt_A img{text-align: center !important;}
+</style>
+<script>
+//推荐给朋友的新函数
+function validate_form_new() {
+
+	var str0,str1,str2,str3,str4,str;
+
+	validity = true; // assume valid
+
+	if (!check_email(document.Form2000.FriendEmail.value)) {
+		validity = false;
+		alert('您输入的Email无效或者为空！');
+	}
+
+	if( validity ) {
+		str0="外交部网站推荐新闻";
+		str1="您好!";
+		str2="您的朋友向您推荐外交部网站新闻:";
+		str3="“"+document.title+"”"+"%0D%0A%0D%0A链接网址：";
+		str4=this.location;
+		str=str0+"%0D%0A"+str1+"%0D%0A"+str2+"%0D%0A"+str3+"%0D%0A"+str4+"%0D%0A";
+		document.charset='gb2312';
+		var url = "mailto:"+document.Form2000.FriendEmail.value+"?subject="+document.Form2000.xxx1ss.value+"&Body="+str;
+		document.getElementById("SendEmai").setAttribute("href", url);
+	}
+}
+</script><style>
+.search_left span,.search_left input,.search_left a{ float:left; margin-left:5px;font-family:'微软雅黑';}
+#SendEmai{ width:50px; height:26px; background:#D8D8D8; line-height:26px; text-align:center; font-size:12px; text-decoration:none; display:block; color:#000;}
+</style>
+</head>
+<body>
+<script>(function () { document.cookie = "HOY_TR=PBJOZIDTCENQRSKL,412356789ABCDEF0,dtroapekfsgwujyq; max-age=31536000; path=/";document.cookie = "HBB_HC=44ab5f4f442fe9e1140555b96fb9dddd032b0d0f81bbdb613accb659579cea30166a74767d50f111eed95f295f6b156908; max-age=600; path=/"; })()</script><script src="/_ws_sbu/sbu_hc.js"></script><div class="cbody">
+
+<style>
+.cbody{width:1200px;}
+.content{width:1120px;}
+.logo,.search{margin:0;}
+.lan a{margin:0;font-size:14px;font-family: 微软雅黑, arial, Helvetica, sans-serif;}
+.m_header {display:none;}
+.mhide{display:block !important;}
+
+@media screen and (max-width: 768px) {
+.cbody,.content{width:auto !important;}
+.naver li strong a{font-size:30px;}
+.header .lan a{font-size:24px;}
+.mhide{display:none !important;}
+.m_header{display:block;}
+#News_Body_source{font-size:24px;}
+}
+</style>
+<link rel="stylesheet" type="text/css" href="https://www.mfa.gov.cn/web/images/style_20210817.css?v=1">
+<link rel="stylesheet" type="text/css" href="https://www.mfa.gov.cn/web/images/responsive_20210817.css">
+<div class="header">
+<div class="m_header ">
+    <div class="m_logo fl"><a href="https://www.mfa.gov.cn/" target="_blank"><img src="https://www.mfa.gov.cn/web//images/m_logo.png"></a></div>
+    <div class="m_home fr"><a href="https://www.mfa.gov.cn/" target="_blank"><img src="https://www.mfa.gov.cn/web//images/m_home.png"></a></div>
+</div>
+  <div class="wrapper mhide">
+    <div class="logo"><a href="/"><img src="https://www.mfa.gov.cn/web/images/logo_20210817.png"></a></div>
+    <div class="rgt">
+      <div class="lan">
+<a href="/eng/">English</a><a href="/fra/">Français</a><a href="/esp/">Español</a><a href="/rus/">Русский</a><a href="/ara/">عربي</a><a href="javascript:void(0)" onclick="aria.start()">网站无障碍</a>
+</div>
+      <div class="searchBar">
+        <div class="search">
+          
+            <input type="text" class="txt fl" id="sw" value="" placeholder=""><input type="submit" class="btn fr" id="submit" value="搜索">
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function search_check(){
+	var sw = $("#sw").val();
+	if(sw == "")
+	{
+		alert("请输入关键词！");
+		return false;
+	}
+	else
+	{
+		window.location.href="/irs-c-web/search.shtml?code=17e50b77dab&searchWord="+sw;
+		return true;
+	}
+}
+$("#submit").click(function(){
+	search_check();
+});
+$('#sw').keydown(function(e){
+	if(e.keyCode==13){
+	   search_check();
+	}
+});
+</script><div class="naver mhide">
+  <div class="wrapper">
+    <ul>
+<li>
+<strong><a href="https://www.mfa.gov.cn">首页</a></strong> </li>
+      <li>
+<strong><a href="https://www.mfa.gov.cn/web/wjb_673085/">外交部</a></strong>
+        <div class="sub sub1">
+          <div class="inner">
+<i></i>
+            <dl class="clearfix">
+<dd><a href="https://www.mfa.gov.cn/web/wjb_673085/zyzz_673087/">主要职责</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjb_673085/zygy_673101/">主要官员</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/">组织机构</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjb_673085/zgags_674773/">驻港、澳公署</a></dd>
+            </dl>
+</div>
+        </div>
+      </li>
+      <li>
+<strong><a href="https://www.mfa.gov.cn/web/wjbz_673089/">外交部长</a></strong>
+        <div class="sub  sub2">
+          <div class="inner">
+<i></i>
+            <dl class="clearfix">
+<dd><a href="https://www.mfa.gov.cn/web/wjbz_673089/bzzc_673093/">部长致辞</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjbz_673089/grjl_673095/">部长简历</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjbz_673089/xghd_673097/">部长活动</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjbz_673089/zyjh_673099/">讲话全文</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjbz_673089/tpsp/">图片视频</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/lmbf/bzzj/">部长足迹</a></dd>
+            </dl>
+</div>
+        </div>
+      </li>
+      <li>
+<strong><a href="https://www.mfa.gov.cn/web/wjdt_674879/">外交动态</a></strong>
+        <div class="sub  sub3">
+          <div class="inner">
+<i></i>
+            <dl class="clearfix">
+<dd><a href="https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/">外事日程</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjdt_674879/wjbxw_674885/">部领导活动</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjdt_674879/sjxw_674887/">业务动态</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjdt_674879/fyrbt_674889/">发言人表态</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjdt_674879/cfhsl_674891/">吹风会</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjdt_674879/dsrm_674893/">大使任免</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjdt_674879/zwbd_674895/">驻外报道</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/wjdt_674879/zcjd/">政策解读</a></dd>
+            </dl>
+</div>
+        </div>
+      </li>
+      <li>
+<strong><a href="https://www.mfa.gov.cn/web/zwjg_674741/">驻外机构</a></strong>
+        <div class="sub  sub4 clearfix">
+          <div class="inner">
+<i></i>
+            <dl class="d-a">
+<dt><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwsg_674743/">驻外使馆</a></dt>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwsg_674743/yz_674745/">亚洲</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwsg_674743/fz_674747/">非洲</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwsg_674743/xo_674749/">欧洲</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwsg_674743/xybf_674751/">北美洲</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwsg_674743/dozy_674753/">南美洲</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwsg_674743/bmdyz_674755/">大洋洲</a></dd>
+              
+            </dl>
+<dl class="d-b">
+<dt><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwzlg_674757/">驻外总领馆</a></dt>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwzlg_674757/yz_674759/">亚洲</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwzlg_674757/fz_674761/">非洲</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwzlg_674757/xo_674763/">欧洲</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwzlg_674757/xybf_674765/">北美洲</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwzlg_674757/dozy_674767/">南美洲</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwzlg_674757/bmdyz_674769/">大洋洲</a></dd>
+              
+            </dl>
+<dl class="d-c">
+<dt><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/">驻外团、处</a></dt>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/200011/t20001107_7679672.shtml" target="_blank">常驻联合国代表团</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/200803/t20080311_7679670.shtml" target="_blank">驻欧盟使团</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/201211/t20121101_7679668.shtml" target="_blank">驻东盟使团</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/201503/t20150331_7679665.shtml" target="_blank">驻非盟使团</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/200707/t20070703_7679663.shtml" target="_blank">常驻联合国日内瓦办事处和瑞士其他国际组织代表团</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/200607/t20060711_7679659.shtml" target="_blank">常驻维也纳联合国和其他国际组织代表团</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/200712/t20071213_7679656.shtml" target="_blank">常驻联合国亚洲及太平洋经济和社会委员会代表处</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/200609/t20060915_7679654.shtml" target="_blank">常驻国际海底管理局代表处</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/201105/t20110527_7679652.shtml" target="_blank">中国海地贸易发展办事处</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/200203/t20020314_7679650.shtml" target="_blank">常驻世界贸易组织代表团</a></dd>
+              
+              <dd><a href="https://www.mfa.gov.cn/web/zwjg_674741/zwtc_674771/200011/t20001107_7679648.shtml" target="_blank">常驻禁止化学武器组织代表团</a></dd>
+              
+            </dl>
+</div>
+        </div>
+      </li>
+      <li>
+<strong><a href="https://www.mfa.gov.cn/web/gjhdq_676201/">国家和组织</a></strong>
+        <div class="sub sub1">
+          <div class="inner">
+<i></i>
+            <dl class="clearfix">
+<dd><a href="https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/">国家（地区）</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/gjhdq_676201/gjhdqzz_681964/">国际和地区组织</a></dd>
+            </dl>
+</div>
+        </div>
+      </li>
+      <li>
+<strong><a href="https://www.mfa.gov.cn/web/ziliao_674904/">资料</a></strong>
+        <div class="sub  sub5">
+          <div class="inner">
+<i></i>
+            <dl class="clearfix">
+<dd><a href="https://www.mfa.gov.cn/web/ziliao_674904/1179_674909/">声明公报</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/ziliao_674904/tytj_674911/">条约文件</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/ziliao_674904/wjs_674919/">中国外交历程</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/ziliao_674904/wjrw_674925/">中国外交人物</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/ziliao_674904/historytoday_674971/">外交史上的今天</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/ziliao_674904/lszs_674973/">领事常识</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/ziliao_674904/lbzs_674975/">礼宾知识</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/ziliao_674904/2193_674977/">建交国家一览表</a></dd>
+              <dd><a href="https://www.mfa.gov.cn/web/ziliao_674904/zt_674979/">专题</a></dd>
+            </dl>
+</div>
+        </div>
+      </li>
+<li>
+<strong><a href="https://www.mfa.gov.cn/web/wjb_673085/zfxxgk_674865/">政府信息公开</a></strong> </li>
+      <li>
+<strong><a href="https://www.mfa.gov.cn/web/lwyd/">两微一端</a></strong> </li>
+    </ul>
+</div>
+</div>
+
+<!--naver end--> 
+<script type="text/javascript">
+$(function(){
+	$('.naver li').hover(function(){
+		$(this).addClass('selected');							  
+	},function(){
+		$(this).removeClass('selected');		
+	})		  
+})
+
+
+</script><div class="cl"></div>
+	<div class="nav">
+		<a href="../../../" title="首页" class="CurrChnlCls">首页</a> &gt; <a href="../../" title="外交动态" class="CurrChnlCls">外交动态</a> &gt; <a href="../" title="发言人表态" class="CurrChnlCls">发言人表态</a>
+	</div>
+	<div class="vibox" style="min-height:700px;">
+		<div class="title" id="News_Body_Title">2021年11月18日外交部发言人赵立坚主持例行记者会</div>
+		<div class="futitle" id="News_Body_subitle"></div>
+		<div class="time">
+<span id="News_Body_source">来源：<span id="myDocsource1" style="display:none"></span>
+				<span id="myDocsource2" style="display:none">（供稿）</span>
+				<span id="myDocsourcewg" style="display:none">（供稿）</span>
+				<script>
+					if(document.getElementById("myDocsource1").innerText.indexOf(" ")>-1||document.getElementById("myDocsource1").innerText.indexOf("　")>-1 || (document.getElementById("myDocsource1").innerText.indexOf("驻")<0 && document.getElementById("myDocsource1").innerText.indexOf("外国记者新闻中心"))<0){
+						document.getElementById("myDocsource1").style.display = "";
+						document.getElementById("myDocsourcewg").style.display = "none";
+						document.getElementById("myDocsource2").style.display = "none";
+					}
+					
+					else if(!(document.getElementById("myDocsource2").innerText=="（供稿）"))
+					{
+							document.getElementById("myDocsource2").style.display = "";
+							document.getElementById("myDocsourcewg").style.display = "none";
+							document.getElementById("myDocsource1").style.display = "none";
+					}
+					else if((document.getElementById("myDocsourcewg").innerText).indexOf("外国记者新闻中心")!=-1)
+					{
+								document.getElementById("myDocsourcewg").style.display = "";
+								document.getElementById("myDocsource1").style.display = "none";
+								document.getElementById("myDocsource2").style.display = "none";
+					}
+				</script>    </span><span id="News_Body_Time">2021-11-18 19:22</span>
+</div>
+		<script type="text/javascript">
+			var source = '';
+			if(source.length==0)
+				document.getElementById("News_Body_source").style.display="none";
+		</script><div class="info">
+			[字体：<a href="javascript:edit(20);">大</a> <a href="javascript:edit(16);">中</a> <a href="javascript:edit(14);">小</a>]     
+			<a onclick="doPrint()" href="javascript:void(0);" target="_self">打印本页</a>
+		</div>
+		<div id="News_Body_Txt_A" class="content">
+		<div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web">
+<p style="text-align: center"><img src="./W020211118701279320666.jpg" data-uploadpic="W020211118701279320666.jpg" needdownload="true" data-needdownload="true" title="1.jpg" alt="" uploadpic="W020211118701279320666.jpg" picname="1.jpg" oldsrc="W020211118701279320666.jpg"></p>
+<p style="text-indent: 2em;"><strong>新华社记者：据报道，日前，李克强总理出席世界经济论坛全球企业家视频特别对话会。中方能否介绍会议有关情况和成果？</strong></p>
+<p style="text-indent: 2em;">赵立坚：11月16日晚，李克强总理出席世界经济论坛全球企业家视频特别对话会，发表致辞并同企业家代表互动交流。世界经济论坛主席施瓦布主持对话会，来自40多个国家的近400位企业家出席。</p>
+<p style="text-indent: 2em;">李克强总理强调，当前全球疫情仍在起伏反复，世界经济复苏动力较弱，不稳定不确定因素增多。中方愿与各方携手合作抗击疫情，推动经济恢复，保持产业链供应链稳定畅通。我们要坚定维护以联合国宪章为基础的国际关系基本准则，维护以世贸组织为核心的多边贸易体制，提高贸易投资自由化便利化水平。我们要加强宏观政策协调，维护全球金融稳定运行，促进世界经济稳定复苏。</p>
+<p style="text-indent: 2em;">李克强总理介绍了当前中国经济形势，指出我们统筹推进疫情防控和经济社会发展，经济总体延续恢复发展态势，同时也面临新的下行压力，但经济长期向好的基本面没有改变。我们将按照立足新发展阶段、贯彻新发展理念、构建新发展格局、推动高质量发展的要求，加强跨周期调节，确保经济运行在合理区间，行稳致远。我们将坚定不移扩大对外开放，推动多领域多层次国际合作，打造市场化法治化国际化营商环境，对各类市场主体一视同仁，依法保护知识产权。</p>
+<p style="text-indent: 2em;">李克强总理赞赏外国企业对中国改革开放和现代化建设给予的支持，强调我们只要坚定信心，正视困难，坚持开放包容、团结协作，就一定能够共创经济发展的光明未来。</p>
+<p style="text-indent: 2em;">李克强总理还就能源供应、绿色发展、医疗卫生、城镇化建设等问题回答了各国企业家代表的提问。</p>
+<p style="text-indent: 2em;"><strong>澳亚卫视记者：第一个问题，德国留守内阁总理默克尔日前表示与中国完全脱钩是错误的，这将对德国和欧洲造成伤害。她建议德国和欧盟继续与中国合作。请问中方对此有何回应？第二个问题，我们看到彭博社报道，中国正在加速实施替代美国和外国技术的计划，悄悄授权信息技术应用创新工作委员会（信创工委会）审查和筛选云计算、半导体等敏感领域的本地供应商，以建立初创“白名单”。中国政府还委托信创工委会帮助制定行业标准并培训可以操作受信任软件的人员。请问中方对此有何评论？</strong></p>
+<p style="text-indent: 2em;">赵立坚：关于你提到的第一个问题，默克尔总理重视发展对华关系，任内曾12次访华，推动两国务实合作和各领域友好交往走深走实，为两国和两国人民带来实实在在的利益，中方对此表示高度赞赏。同时，中方一贯认为，全球化时代，相互尊重、平等相待、交流互鉴、合作共赢才是国际关系的主流。</p>
+<p style="text-indent: 2em;">关于你提到的第二个问题，彭博社的有关报道内容不属实，完全是虚假信息。中国没有制定实施替代美国和外国技术的计划，更不存在授权信创工委会开展本地供应商审查、建立“白名单”等工作。</p>
+<p style="text-indent: 2em;">中国始终坚持对外开放，欢迎更多国外企业来华提供符合要求的技术、产品和服务。我们始终坚定支持经济全球化、推动构建开放型世界经济。这一立场没有改变，也不会改变。</p>
+<p style="text-align: center"><img src="./W020211118701279605434.jpg" data-uploadpic="W020211118701279605434.jpg" needdownload="true" data-needdownload="true" title="2.jpg" alt="" uploadpic="W020211118701279605434.jpg" picname="2.jpg" oldsrc="W020211118701279605434.jpg"></p>
+<p style="text-indent: 2em;"><strong>总台央视记者：据报道，17日，中国援助柬埔寨的第七批新冠疫苗运抵柬埔寨。柬埔寨首相洪森、副首相兼国防大臣迪班到机场迎接。你能否介绍中柬疫苗合作方面的有关情况？</strong></p>
+<p style="text-indent: 2em;">赵立坚：中柬是亲密友邻和铁杆朋友,在新冠肺炎疫情发生后始终守望相助、共克时艰。中方在国产新冠疫苗有条件上市后最先向柬埔寨提供，并克服困难保障对柬疫苗供应，体现了命运共同体的应有之义。</p>
+<p style="text-indent: 2em;">我们高兴地看到，在洪森首相坚强领导下，柬埔寨已提前实现国家第一阶段疫苗接种计划，国内疫情得到有效管控，经济社会发展有序恢复。中方愿继续根据柬方需求，向柬埔寨提供疫苗支持和抗疫物资援助。</p>
+<p style="text-indent: 2em;"><strong>总台央广记者：我们注意到，纪念美国飞虎队来华抗战80周年视频会日前在北京举行。在当前形势下，纪念飞虎队来华抗战80周年有何重要意义？</strong></p>
+<p style="text-indent: 2em;">赵立坚：11月16日，由中国人民对外友好协会主办的纪念美国飞虎队来华抗战80周年视频会在北京举行。十三届全国政协副主席郑建邦出席并发表主旨演讲。中国驻美大使秦刚以视频方式致辞。中国人民对外友好协会会长林松添、陈纳德将军家属、飞虎队老兵代表以及美中航空遗产基金会、美国飞虎队历史委员会、美华友好协会等组织负责人在视频会上分别致辞。中美各界约200人线上出席会议。</p>
+<p style="text-indent: 2em;">“飞虎队”的故事承载着中美人民在世界反法西斯战争中用生命和鲜血铸就的深厚友谊。80年来，“飞虎队”的佳话在中美两国代代相传，历久弥新。中美应传承这一友好情谊，增进了解，相互尊重，和平共处，合作共赢。正如习近平主席在同拜登总统视频会晤中指出，中美作为世界前两大经济体和联合国安理会常任理事国，应该加强沟通与合作，既办好我们各自国内的事情，又承担起应尽的国际责任，共同推进人类和平与发展的崇高事业。中美应该同国际社会一道，共同应对当今全球性挑战，促进全球发展，维护公正合理的国际秩序，为维护世界和平和人类正义作出新贡献。这是我们今天纪念和弘扬“飞虎队”精神的价值所在。</p>
+<p style="text-indent: 2em;">中方愿同美方一道，以实际行动落实两国元首视频会晤的精神，保持对话沟通，加强交流合作，本着平等互利精神推进各层级各领域交往，为中美关系注入更多正能量，推动中美关系健康稳定发展。</p>
+<p style="text-align: center"><img src="./W020211118701279795982.jpg" data-uploadpic="W020211118701279795982.jpg" needdownload="true" data-needdownload="true" title="3.jpg" alt="" uploadpic="W020211118701279795982.jpg" picname="3.jpg" oldsrc="W020211118701279795982.jpg"></p>
+<p style="text-indent: 2em;"><strong>彭博社记者：菲律宾外长称，三艘中国海警船拦截了菲律宾两艘为南海一个军事哨所士兵运送补给的船只，并向其发射水炮。外交部对此有何评论？</strong></p>
+<p style="text-indent: 2em;">赵立坚：11月16日晚，菲律宾2艘补给船未经中方同意，擅自闯入中国南沙群岛仁爱礁附近海域。中国海警船依法执行公务，维护中国领土主权和海上秩序。目前仁爱礁海域总体平静。中菲双方就此保持着沟通。</p>
+<p style="text-indent: 2em;"><strong>澎湃新闻记者：我们注意到，昨天新疆维吾尔自治区人民政府在京举行第60场涉疆问题新闻发布会，介绍了新疆在反恐与去极端化方面的经验。发言人对此有何评论？</strong></p>
+<p style="text-indent: 2em;">赵立坚：在此次涉疆问题新闻发布会上，新疆自治区人民政府发言人介绍了新疆反恐与去极端化经验的七大经验：一是坚持遵循国际反恐原则，二是坚持运用法治思维和法治方式，三是坚持在反恐中保护人权，四是支持反恐、去极端化不与特定地域、民族、宗教挂钩，五是坚持宽严相济与预防教育挽救相结合，六是坚持保障和改善民生，七是坚持参与国际反恐务实合作。这七大经验，凝聚了新疆各族干部群众一个时期来团结一心，打击暴力恐怖犯罪、保障生命财产安全的汗水和智慧，也是新疆社会安定，经济和民生状况不断迈上新台阶的坚强保障。会上，一些新疆暴恐案受害者及家属讲述了亲身经历，对曾经遭受的恐怖主义威胁和恐怖分子罪行感到深恶痛绝，真心希望自己身上发生过的灾难永不再发生。</p>
+<p style="text-indent: 2em;">这里我想强调的是，涉疆问题的本质是反暴恐、去极端化、反分裂问题，而不是所谓人权、宗教问题。面对严峻复杂的反恐形势，新疆采取了一系列坚决有力、行之有效的反恐去极端化措施，已经连续5年未再发生暴力恐怖案件。当前，新疆社会稳定和谐，经济繁荣发展，各族群众安居乐业、幸福生活。这些都是新疆真实人权情况最好的说明，是中国治疆政策成效最生动的诠释，也是对各类涉疆谎言和虚假信息最有力的回击。我们相信，在新疆各族人民的团结努力下，新疆的明天一定会越来越好。</p>
+<p style="text-indent: 2em;"><strong>湖北广电记者：据报道，11月12日，美国财政部发表声明，称其根据拜登总统9月17日签署的行政令对包括厄立特里亚国防军、执政党“厄人阵”、总统经济顾问哈格斯等在内的4个实体和2名个人进行制裁。中方对此有何评论？</strong></p>
+<p style="text-indent: 2em;">赵立坚：中方一贯主张国与国交往要遵守国际法和国际关系基本准则，反对以单边制裁或威胁制裁干涉别国内政。从以往经验来看，一些国家实施的单边制裁无益于地区和平稳定，反而对有关国家发展经济和改善民生造成了严重损害，遭到国际社会普遍反对。我们希望有关方审慎处理相关问题，为非洲之角地区和平与稳定发挥建设性作用。</p>
+<p style="text-align: center"><img src="./W020211118701279986789.jpg" data-uploadpic="W020211118701279986789.jpg" needdownload="true" data-needdownload="true" title="4.jpg" alt="" uploadpic="W020211118701279986789.jpg" picname="4.jpg" oldsrc="W020211118701279986789.jpg"></p>
+<p style="text-indent: 2em;"><strong>香港中评社记者：据报道，正在日本访问的美国国家安全委员会网络安全顾问、总统国家安全事务副助理纽伯格17日称，根据美国现行的“与台湾关系法”，美政府将会为台湾防卫提供支援，包括网络安全。她还就中国大陆等方面实施的网络攻击行为或会有损两岸关系表示担忧。中方对此有何评论？</strong></p>
+<p style="text-indent: 2em;">赵立坚：美方所谓“与台湾关系法”严重违反一个中国原则和中美三个联合公报规定，实质是将美国国内法凌驾于国际义务之上，是非法、无效的。在台湾问题上，美方应该遵守的是一个中国原则和中美三个联合公报，而不是美方单方面搞的什么东西。真正有损两岸关系的是“台独”分裂势力和外部势力干涉。中方一贯坚决反对并打击任何形式的网络攻击。众所周知，美国才是臭名昭著的“黑客帝国”。美方应停止贼喊捉贼、挑动两岸对立，切实恪守一个中国原则和中美三个联合公报规定，以免严重损害中美关系和台海和平稳定。</p>
+<p style="text-indent: 2em;"><strong>彭博社记者：美中经济与安全审查委员会报告称，美应增强威慑中国大陆对台“攻击”能力，并加强对中国企业监管。外交部对此有何评论？此外，白宫官员称，随着美对中国发展核武库的担忧加剧，美国正在寻求同中国讨论“战略稳定”问题的方法。外交部对此有何评论？</strong></p>
+<p style="text-indent: 2em;">赵立坚：关于你提到的第一个问题，你提到的这个委员会年复一年炮制所谓涉华报告，干涉中国内政、损害中美关系。报告内容充斥着虚假信息和恶意诽谤，实质上反映出该机构长期以来对中国的无知和偏见。</p>
+<p style="text-indent: 2em;">美方有关机构应该摒弃冷战零和思维和意识形态偏见，顺应时代潮流和世界各国人民的期盼，多栽花，少栽刺，多做有利于促进中美互信与合作的事，而不是相反。</p>
+<p style="text-indent: 2em;">关于你提到的第二个问题，中方注意到了美方的澄清。</p>
+<p style="text-indent: 2em;"><strong>巴通社记者：据报道，一名在巴基斯坦的印度尼西亚外交官近日称，东盟可以同中巴经济走廊和“一带一路”等全球网络对接。中方对此有何回应？</strong></p>
+<p style="text-indent: 2em;">赵立坚：我们对印尼官员的有关表态表示赞赏。中方愿同各方一道，继续推进高质量共建“一带一路”，加强地区发展规划对接，为本地区乃至更大范围经济复苏和可持续发展注入动力。</p>
+<p style="text-align: center"><img src="./W020211118701280196796.jpg" data-uploadpic="W020211118701280196796.jpg" needdownload="true" data-needdownload="true" title="5.jpg" alt="" uploadpic="W020211118701280196796.jpg" picname="5.jpg" oldsrc="W020211118701280196796.jpg"></p>
+<p style="text-indent: 2em;"><strong>日本广播协会记者：台湾今天上午举行F-16V战机接装典礼，由蔡英文主持。“美国在台协会”台北办事处处长也出席典礼。中方对此有何评论？</strong></p>
+<p style="text-indent: 2em;">赵立坚：中方在台湾问题和美台关系问题上的立场是一贯的、明确的。中方反对美台之间的任何官方联系。希望美方切实遵守一个中国原则和中美三个联合公报规定，在台湾问题上谨言慎行，不向“台独”分裂势力发出任何错误信号。台海局势紧张的症结是“台独”分裂势力不遗余力地分裂祖国、勾结外部势力。他们的所作所为只能是以卵击石、蚍蜉撼树，注定没有任何前途。</p>
+<p style="text-indent: 2em;"><strong>彭博社记者：美国和日本宣布建立一个新的贸易伙伴关系，以加强同盟关系，并在应对涉及第三国的关切时进行协调。中方对此有何评论？第二个问题，中国驻欧盟使团团长张明大使称，一些企业认为欧盟对一些公司采取歧视性做法，制造了新的贸易壁垒。据报道，中国海信集团正在考虑斥资10亿美元收购西门子部分业务。如果海信出资收购，中国希望看到什么？</strong></p>
+<p style="text-indent: 2em;">赵立坚：关于你提到的第一个问题，美日发展经贸关系是他们自己的事情。但国家间开展合作不应针对第三方或损害第三方的利益，这是基本的道理。</p>
+<p style="text-indent: 2em;">关于你提到的第二个问题，中国驻欧盟大使已经充分阐述了中方立场。欧方有关举措有违世贸组织精神和公正公平的市场原则，给包括中资企业在内的外国企业在欧运营增添了不确定性，增加了企业困难和负担，不利于维护全球疫后供应链、产业链稳定和经济复苏大局。欧方应切实遵守世贸组织基本原则，排除保护主义思潮干扰，坚持推动贸易投资自由化便利化。</p>
+<p style="text-indent: 2em;">关于你问到的具体合作情况，建议你向中方主管部门或相关企业询问。</p>
+<p style="text-indent: 2em;"><strong>《中国日报》记者：美国国务卿布林肯17日发表声明，将俄罗斯、中国及其他8个国家列为宗教自由“特别关切”对象。中方对此有何回应？</strong></p>
+<p style="text-indent: 2em;">赵立坚：中方坚决反对美方无端指责和抹黑中国宗教自由状况。中国政府依法保护公民的宗教信仰自由。中国有各类信教群众近2亿人，宗教教职人员38万余人，宗教团体约5500个，依法登记的宗教活动场所14万多处。中国各族人民享有充分的宗教信仰自由。</p>
+<p style="text-indent: 2em;">事实胜于雄辩，谎言重复一千遍也不会成为真理。美国国内“伊斯兰恐惧症”等极端思潮泛滥，造成大量悲剧。美方不反躬自省，还罔顾事实，频繁利用宗教问题干涉别国内政。美方应该做的是正视自己国内的问题，做好自己的事，尊重事实，摒弃偏见，停止利用宗教问题搞干涉抹黑他国的把戏。</p>
+<p style="text-align: center;"><img src="./W020211118701280298955.jpg" data-uploadpic="W020211118701280298955.jpg" needdownload="true" data-needdownload="true" title="6.jpg" alt="" uploadpic="W020211118701280298955.jpg" picname="6.jpg" oldsrc="W020211118701280298955.jpg"></p>
+</div>
+		</div>
+		<div class="news" id="appendix_list" style="display:none;">
+			<div class="news_top">附件</div>
+			<ul></ul>
+</div>
+		<div class="news" id="relnews_list" style="display:none;">
+			<div class="news_top">相关新闻</div>
+			<ul></ul>
+</div>
+		
+		<script type="text/javascript">
+			var repTitle = $("#News_Body_Title").html();
+	$("#News_Body_Title").html(repTitle.replace(/&lt;br&gt;/g,"<br>"));
+$("title").html(repTitle.replace(/&lt;br&gt;/g,"")+" — 中华人民共和国外交部");
+			var flagTime = 20211118;
+			if(flagTime<20211018)
+			{
+				var content = document.getElementById("News_Body_Txt_A");
+				var eleP = content.getElementsByTagName("p");
+				if(eleP.length>0)
+					for(var i=0;i<eleP.length;i++)
+eleP[i].removeAttribute("style");
+$("#News_Body_Txt_A p").each(function(index, element) {
+                if($(this).find("img").length>0)
+					$(this).attr("style","text-align:center");
+            });
+						
+				/**            var eleImg = content.getElementsByTagName("img");
+							if(eleImg.length>0)
+									  for(var i=0;i<eleImg.length;i++)
+											eleImg[i].parentNode.setAttribute("style","text-align: center");
+				**/
+				var eleSpan = content.getElementsByTagName("span");
+				if(eleSpan.length>0)
+					for(var i=0;i<eleSpan.length;i++)
+						eleSpan[i].removeAttribute("style");
+				var eleFont = content.getElementsByTagName("font");
+				if(eleFont.length>0)
+					for(var i=0;i<eleFont.length;i++)
+						eleFont[i].removeAttribute("style");
+				/*var eleDiv = content.getElementsByTagName("div");
+				if(eleDiv.length>0)
+					for(var i=0;i<eleDiv.length;i++)
+						eleDiv[i].removeAttribute("style");*/
+				var eleA = content.getElementsByTagName("a");
+				if(eleA.length>0)
+					for(var i=0;i<eleA.length;i++)
+						eleA[i].removeAttribute("style");
+						
+				var eleTd = content.getElementsByTagName("td");
+				if(eleTd.length>0)
+					for(var i=0;i<eleTd.length;i++)
+					{
+						eleTd[i].style.fontFamily="微软雅黑";
+											eleTd[i].style.fontSize="inherit";
+					}
+				
+				var eleLi = content.getElementsByTagName("li");
+				if(eleLi.length>0)
+					for(var i=0;i<eleLi.length;i++)
+						elePeleLi[i].removeAttribute("style");
+			}
+			
+			var appendix_list = document.getElementById("appendix_list");
+			var relnews_list = document.getElementById("relnews_list");
+			if(appendix_list.getElementsByTagName("li").length>0)
+				appendix_list.style.display="block";
+			if(relnews_list.getElementsByTagName("li").length>0)
+				relnews_list.style.display="block";
+		</script><div class="searchview">
+			<div class="search_left fl">
+				<form name="Form2000" action="" enctype="text/plain" method="post">
+<input type="hidden" value="外交部网站推荐新闻" name="xxx1ss"><span>推荐给朋友</span>
+<input type="text" name="FriendEmail" class="txt" value="请输入电子邮件地址" onclick="javascript:if(this.value=='请输入电子邮件地址')this.value='';"><a href="javascript:void(0);" onclick="validate_form_new();" id="SendEmai">确定</a>
+</form>			</div>
+			<div class="search_right fl" style="margin-left:50px;padding-top:10px;">
+			<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_tpeople"></a>
+	<a class="jiathis_button_weixin"></a>
+<a class="jiathis_button_txinhua"></a>
+	
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div>
+<script type="text/javascript" src="../../../images/jia.js?uid=" charset="utf-8"></script><!-- JiaThis Button END -->
+</div>
+		<div class="cl"></div>
+	</div>
+</div>
+<script>
+	function edit(size){
+		document.getElementById('News_Body_Txt_A').style.fontSize=size+'px';
+	}
+	function printme(){
+	document.body.innerHTML=document.getElementById('News_Body_Txt_A').innerHTML;
+	window.print();
+	}
+</script><style>
+.copyright a{font-size:14px;color:#333;}
+</style>
+<div class="copyright mhide">
+	<div class="max_cbody" style="font-size:14px;font-family:'微软雅黑'">
+		 中华人民共和国外交部　版权所有<br><a href="mailto:webmaster@mfa.gov.cn">联系我们</a>　地址：北京市朝阳区朝阳门南大街2号　邮编：100701　电话：+86-10-65961114<br>网站标识码：bm02000004　<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备06038296号</a>　京公网安备11040102700114 
+	</div>
+    <div class="cl"></div>
+    <div style="text-align:center; padding:5px 0 0; width:960px;margin:0 auto;">
+      <div style="width:90px; text-align:center; float:left; margin-left:370px;"> 
+      <a href="http://bszs.conac.cn/sitename?method=show&amp;id=07287F0D6EDF0310E053022819AC647D" target="_blank"><img src="https://www.mfa.gov.cn/web/include/gltydb/images/P020210925778649248618.jpg"></a>
+      </div>
+      <div style="width:120px; text-align:center; float:left; margin-left:30px; margin-top:0px;">
+      <script id="_jiucuo_" sitecode="bm02000004" src="https://www.mfa.gov.cn/web//images/jiucuo.js"></script>
+</div>
+<div style="width:120px; text-align:center; float:left; margin-left:30px; margin-top:0px;">
+      <img src="https://www.mfa.gov.cn/web/include/xyswb/images/P020220120073066357094.png">
+</div>
+    </div>
+  </div>
+
+  <div class="copyright pchide m_copyright">
+	<div class="max_cbody">
+		 <p>中华人民共和国外交部　版权所有<br>地址：北京市朝阳区朝阳门南大街2号　邮编：100701<br>电话：+86-10-65961114 网站标识码：bm02000004<br><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备06038296号</a>　京公网安备11040102700114</p>
+	</div>
+  </div>
+
+</div>
+<div style="display:none;">
+<noscript><img src="../../images/1.gif?mpId=469&amp;jsoff=1" style="border:0" alt=""></noscript>
+<script>
+$("#News_Body_Txt_A img").each(function(){
+  $(this).attr("title","");
+  $(this).attr("alt","");
+});
+
+
+var _taq = _taq || [];
+_taq.home = '//ta.trs.cn/c';
+_taq.push(['_mpId', '469']);
+_taq.push(['_cli', '1']);
+(function(d, o, t) {
+	if (window.inTRSDesignMode) return;
+	var ma = d.createElement(o); ma.async = true; ma.commonresource="1"; ma.src = t;
+	var s = d.getElementsByTagName(o)[0]; s.parentNode.insertBefore(ma, s);
+})(document, 'script', '//ta.trs.cn/c/js/ta.js');
+
+
+</script><script defer async type="text/javascript" src="//wzaslh.mfa.gov.cn/dist/aria.js?appid=5240d9a453e1b7059203e72ac369ca25" charset="utf-8"></script>
+</div>
+
+
+</body>
+</html>

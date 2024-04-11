@@ -7,12 +7,14 @@ library(curl)
 base_link <- "https://www.mfa.gov.cn/web/wjdt_674879/fyrbt_674889"
 index_links =  base_link %.% c("/index", "/index_" %.% 1:28) %.% ".shtml"
 
-get_article_links <- function(ind){
-  html_data <- read_html(ind)
-  links = html_data %>% html_nodes(".list1 a") %>% html_attr("href")
-  article_links <- path_norm(path(base_link, links))
-  return(article_links)
-}
+#### Get list of links to be scraped
+
+# get_article_links <- function(ind){
+#   html_data <- read_html(ind)
+#   links = html_data %>% html_nodes(".list1 a") %>% html_attr("href")
+#   article_links <- path_norm(path(base_link, links))
+#   return(article_links)
+# }
 
 # all_art_links <- lapply(index_links, get_article_links)
 # all_art_links_vec <- all_art_links %>% unlist()
@@ -20,11 +22,16 @@ get_article_links <- function(ind){
 # saveRDS(all_art_links_vec, "article_urls.RDS")
 all_art_links_vec <- readRDS("article_urls.RDS")
 
-# for each webpage run
-get_page_content <- function(article_link) {
-  page <- rvest::read_html(article_link %>% curl)
+#### Scrape and save
+# for (i in 1:length(all_art_links_vec)) {
+#   article_link = all_art_links_vec[i]
+#   page <- rvest::read_html(article_link %>% curl)
+#   xml2::write_html(page, "raw/" %.% i)
+#   Sys.sleep(0.5)
+# }
 
-  rel_path = article_link %>% path_rel(base_link)
+# Parse webpages
+get_page_content <- function(page) {
 
   # Get page title
   title = page %>% html_nodes("#News_Body_Title") %>% html_text2()
@@ -47,18 +54,26 @@ get_page_content <- function(article_link) {
     str_subset("\\p{script=Han}") %>%
     str_replace("^\\s+", "")
 
-  if(is_empty(q_text)) {
-    return(data.frame(url = article_link,
-               rel_path = rel_path %>% as.character(),
-               title = title,
-               time = time,
-               background_text = NA,
-               question = NA,
-               answer = text %>% paste(collapse = "\n")))
+  if(!is_empty(q_text)){
+    q_id <- which(pos != "" & str_detect(pos, "\\p{script=Han}"))
+    q_id = q_id - sapply(q_id, \(x) sum(filtered_out < x))
+  } else {
+    if (length(text) == 1){
+      text = strsplit(text, "\\n") %>%
+        unlist() %>%
+        str_replace("^\\s+", "")
+    }
+    q_id = str_detect(text, "^\\s*(.+记者|.+报|问)(:|：)") %>% which
+    q_text <- text[q_id]
   }
 
-  q_id <- which(pos != "")
-  q_id = q_id - sapply(q_id, \(x) sum(filtered_out < x))
+  if(is_empty(q_text)) {
+    return(data.frame(title = title,
+                      time = time,
+                      background_text = NA,
+                      question = NA,
+                      answer = text %>% paste(collapse = "\n")))
+  }
 
   background_id = if(q_id[1] != 1) 1:(q_id[1]-1) else NULL # find background text IDs
   background_text = if (!is.null(background_id)) paste(text[background_id], collapse = "") else NA
@@ -68,21 +83,22 @@ get_page_content <- function(article_link) {
   answer_text = split(text, answer_segments, drop = T) %>%
     sapply(function(x) paste(x, collapse = "\n"))
 
-  out <- data.frame(url = article_link,
-                    rel_path = rel_path %>% as.character(),
-                    title = title,
+  out <- data.frame(title = title,
                     time = time,
                     background_text = background_text,
-                    question = q_text,
+                    question = text[q_id],
                     answer = answer_text)
 
   row.names(out) <- NULL
   return(out)
 }
 
+list_pages <- list.files("raw", full.names = T)
+
 process_data <- function(i){
-  article_link = all_art_links_vec[i]
-  temp = get_page_content(article_link)
+  path_to_page = list_pages[i]
+  page = xml2::read_html(path_to_page)
+  temp = page %>% get_page_content()
   saveRDS(temp, file = "data/text_" %.%
             i %.% "_" %.% temp$time %>% unique() %>% gsub("\\:|\\s","_",.))
   return(0)
@@ -90,7 +106,4 @@ process_data <- function(i){
 
 library(future.apply)
 plan(multisession)
-
-for(i in 1:length(all_art_links_vec)) {
-  process_data(i)
-}
+future_sapply(1:length(list_pages), process_data)
