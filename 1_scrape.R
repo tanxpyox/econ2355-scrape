@@ -48,7 +48,7 @@ get_page_content <- function(page) {
   text = text %>% str_subset("\\p{script=Han}") %>% # Keep only paragraphs that contain CJK characters
     str_replace("^\\s+", "")
 
-  q_text <- raw %>% xml2::xml_find_all("strong", flatten = F) %>%
+  q_text <- raw %>% xml2::xml_find_all("strong|b", flatten = F) %>%
     sapply(\(x) html_text2(x) %>% paste(collapse = "")) %>% unlist() %>%
     {{pos <<- .}} %>% .[. != ""] %>%
     str_subset("\\p{script=Han}") %>%

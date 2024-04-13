@@ -56,4 +56,6 @@ df$target = sapply(locs, \(x) {
   x[min(which(x %in% c("United States", "Taiwan", "Japan")))]
 })
 
+df %<>% filter(usa)
+
 write_csv(df, "dataset_corpus.csv")
