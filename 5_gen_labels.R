@@ -31,9 +31,9 @@ to_bin <- function(x){
 }
 
 derivative %<>% mutate(
-  usa = to_bin(usa),
-  taiwan = to_bin(taiwan),
-  japan = to_bin(japan)
+  usa = to_bin(usa_c),
+  taiwan = to_bin(taiwan_c),
+  japan = to_bin(japan_c)
 )
 
 df <- read_csv("dataset_corpus.csv")
