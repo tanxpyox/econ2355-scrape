@@ -69,7 +69,7 @@ calculate <- function(d) {
 }
 
 labels <- sapply((begin-5):(end+5), calculate) %>% t() %>% as.data.frame()
-labels$std_intensity <- (labels$avg_intensity)/sd(labels$avg_intensity, na.rm = T)
+labels$std_intensity <- (labels$avg_intensity - mean(labels$avg_intensity))/sd(labels$avg_intensity, na.rm = T)
 labels$date %<>% as_date()
 
 saveRDS(labels, "intensities_by_date.RDS")
