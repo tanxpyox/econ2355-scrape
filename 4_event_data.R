@@ -62,9 +62,10 @@ begin <- min(df$date)
 end <- max(df$date)
 
 calculate <- function(d) {
-  t <- events %>% filter(`Date` == d)
+  t <- events %>% filter(Date == d)
+
   return(c(date = d,
-         "avg_intensity" = mean(t$Intensity, na.rm = T)
+         "avg_intensity" = mean(sign(t$Intensity), na.rm = T)
   ))
 }
 

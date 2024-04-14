@@ -4,10 +4,14 @@ library(magrittr)
 labels <- readRDS("intensities_by_date.RDS")
 
 labels %<>% mutate(
-  code = case_when(
+  tri_code = case_when(
     abs(std_intensity) < 0.4 ~ 1, # neutral
     std_intensity <= -0.4 ~ 0, # conflictual
     std_intensity >= 0.4 ~ 2 # cooperative
+  ),
+  bin_code = case_when(
+    avg_intensity < 0 ~ 0,
+    avg_intensity >= 0 ~ 1
   )
 )
 
@@ -51,8 +55,12 @@ df <- read_csv("dataset_corpus.csv")
 # df %<>% filter(!is.na(target))
 df$date <- date(df$time)
 
-get_esc <- function(d){
-    return(labels[labels$date == d,]$code)
+get_tri_esc <- function(d){
+    return(labels[labels$date == d,]$tri_code)
+}
+
+get_bin_esc <- function(d){
+  return(labels[labels$date == d,]$bin_code)
 }
 
 get_intensity <- function(d){
@@ -71,8 +79,9 @@ df %<>% group_by(date) %>%
     corpus = corpus[i]
   )
 
-df$labels <- map(df$date, get_esc) %>% unlist()
+df$tri_labels <- map(df$date, get_tri_esc) %>% unlist()
+df$bin_labels <- map(df$date, get_bin_esc) %>% unlist()
 df$lab_intensity <- map(df$date, get_intensity) %>% unlist()
-df %<>% filter(!is.na(labels))
+df %<>% filter(!is.na(lab_intensity))
 
 write_csv(df, "full_dataset.csv")
