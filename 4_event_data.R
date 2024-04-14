@@ -54,9 +54,8 @@ events %<>% mutate(
   )
 )
 
-# select only observations concerning US, Japan and Taiwan
+# select only observations concerning the US
 
-df %<>% filter(usa == 1)
 df$date <- date(df$time)
 
 begin <- min(df$date)
@@ -70,7 +69,7 @@ calculate <- function(d) {
 }
 
 labels <- sapply((begin-5):(end+5), calculate) %>% t() %>% as.data.frame()
-labels$std_intensity <- (labels$avg_intensity - mean(labels$avg_intensity))/sd(labels$avg_intensity)
+labels$std_intensity <- (labels$avg_intensity)/sd(labels$avg_intensity, na.rm = T)
 labels$date %<>% as_date()
 
 saveRDS(labels, "intensities_by_date.RDS")

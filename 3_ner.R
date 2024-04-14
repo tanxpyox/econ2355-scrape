@@ -36,12 +36,8 @@ names(entities_map) <- entities_code$word
 entities_map %<>% na.omit()
 
 process <- function(x){
-  temp <- names(x) %>% entities_map[.] %>% unique() %>% na.omit()
-  if(!is_empty(temp)) {
-    return(temp)
-  } else {
-    return(NA)
-  }
+  names(x) %<>% entities_map[.] %>% unique() %>% na.omit()
+  return(x)
 }
 
 locs <- sapply(locs, process)
@@ -49,13 +45,8 @@ locs <- sapply(locs, process)
 # Label USA, Taiwan and Japan
 
 df <- read_csv("dataset_corpus.csv")
-df$usa = sapply(locs, \(x) any(x == "United States"))
-df$taiwan = sapply(locs, \(x) any(x == "Taiwan"))
-df$japan = sapply(locs, \(x) any(x == "Japan"))
-df$target = sapply(locs, \(x) {
-  x[min(which(x %in% c("United States", "Taiwan", "Japan")))]
-})
+df$usa = sapply(locs, \(x) sum(x[names(x) == "United States"], na.rm = T))
 
-df %<>% filter(usa)
+df %<>% filter(usa != 0)
 
 write_csv(df, "dataset_corpus.csv")

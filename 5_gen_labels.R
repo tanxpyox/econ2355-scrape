@@ -52,10 +52,22 @@ df <- read_csv("dataset_corpus.csv")
 df$date <- date(df$time)
 
 get_esc <- function(d){
-    return(derivative[derivative$date == d,]$usa)
+    return(labels[labels$date == d,]$code)
 }
 
-df$labels <- map2(df$date, get_esc) %>% unlist()
+## Select top entry per day
+
+df %<>% group_by(date) %>%
+  summarise(
+    i = which.max(usa),
+    date = date[i],
+    usa = usa[i],
+    question = question[i],
+    answer = answer[i],
+    corpus = corpus[i]
+  )
+
+df$labels <- map(df$date-1, get_esc) %>% unlist()
 df %<>% filter(!is.na(labels))
 
 write_csv(df, "full_dataset.csv")
