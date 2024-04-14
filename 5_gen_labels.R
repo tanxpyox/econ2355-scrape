@@ -55,6 +55,10 @@ get_esc <- function(d){
     return(labels[labels$date == d,]$code)
 }
 
+get_intensity <- function(d){
+  return(labels[labels$date == d,]$std_intensity)
+}
+
 ## Select top entry per day
 
 df %<>% group_by(date) %>%
@@ -68,6 +72,7 @@ df %<>% group_by(date) %>%
   )
 
 df$labels <- map(df$date, get_esc) %>% unlist()
+df$lab_intensity <- map(df$date, get_intensity) %>% unlist()
 df %<>% filter(!is.na(labels))
 
 write_csv(df, "full_dataset.csv")

@@ -10,6 +10,7 @@ library(magrittr)
 #
 # corpus <- read_csv("dataset_corpus.csv")$corpus
 # qs <- read_csv("dataset_corpus.csv")$question
+# ans <- read_csv("dataset_corpus.csv")$answer
 #
 # extract_locations <- function(txt){
 #   if(is.na(txt)) return(NA)
@@ -24,7 +25,7 @@ library(magrittr)
 #   return(out)
 # }
 #
-# locs <- sapply(1:length(corpus), \(i) extract_locations(corpus[i]))
+# locs <- sapply(1:length(ans), \(i) extract_locations(ans[i]))
 #
 # saveRDS(locs, "locations.RDS")
 locs <- readRDS("locations.RDS")
