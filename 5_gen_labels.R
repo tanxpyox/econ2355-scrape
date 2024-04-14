@@ -67,7 +67,7 @@ df %<>% group_by(date) %>%
     corpus = corpus[i]
   )
 
-df$labels <- map(df$date-1, get_esc) %>% unlist()
+df$labels <- map(df$date, get_esc) %>% unlist()
 df %<>% filter(!is.na(labels))
 
 write_csv(df, "full_dataset.csv")
