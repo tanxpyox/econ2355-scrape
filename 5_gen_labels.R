@@ -84,4 +84,7 @@ df$bin_labels <- map(df$date, get_bin_esc) %>% unlist()
 df$lab_intensity <- map(df$date, get_intensity) %>% unlist()
 df %<>% filter(!is.na(lab_intensity))
 
+n_class <- df$bin_labels %>% table %>% min
+df %<>% group_by(bin_labels) %>% group_split() %>% lapply(\(df) sample_n(df, n_class, replace = F)) %>% bind_rows()
+
 write_csv(df, "full_dataset.csv")
